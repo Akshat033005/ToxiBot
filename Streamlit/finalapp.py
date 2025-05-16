@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 import numpy as np
 <<<<<<< HEAD
-from tensorflow.keras.preprocessing.sequence import pad_sequences  # type: ignore
+from tensorflow.keras.preprocessing.sequence import pad_sequences  
 =======
 from tensorflow.keras.preprocessing.sequence import pad_sequences 
 >>>>>>> b928967cd3660aaab2e5c5899e6f79ab6bfd27f5
@@ -67,7 +67,7 @@ with st.sidebar:
     st.markdown("<div class='sidebar-section'><h3>Supported Languages:</h3><p>🇮🇳 Hindi<br>🇺🇸 English<br>🇫🇷 French<br></p></div>", unsafe_allow_html=True)
     language = st.selectbox("Select Language", [ "Hindi", "English",  "French"], help="Choose language or use auto-detect")
 <<<<<<< HEAD
-    # st.markdown("<div class='sidebar-section'><p><a href='#'>Try with examples:</a><br>Toxic examples | Non-Toxic examples</p></div>", unsafe_allow_html=True)
+    
 =======
   
 >>>>>>> b928967cd3660aaab2e5c5899e6f79ab6bfd27f5
@@ -79,7 +79,7 @@ st.markdown("<div class='description'>Detect toxic content in multiple languages
 <<<<<<< HEAD
 # Load the Hindi model and tokenizer
 try:
-    hindi_model = joblib.load("hindi_model.pkl")  # Replace with actual Hindi model path
+    hindi_model = joblib.load("hindi_model.pkl") 
 =======
 # Load the Hindi model 
 try:
@@ -91,7 +91,7 @@ except Exception as e:
 
 try:
 <<<<<<< HEAD
-    with open("tokenizer_hindi.pkl", "rb") as f:  # Replace with actual Hindi tokenizer path
+    with open("tokenizer_hindi.pkl", "rb") as f:  
 =======
     with open("tokenizer_hindi.pkl", "rb") as f:  
 >>>>>>> b928967cd3660aaab2e5c5899e6f79ab6bfd27f5
@@ -103,7 +103,7 @@ except Exception as e:
 # Load the French model and tokenizer
 try:
 <<<<<<< HEAD
-    french_model = joblib.load("french_model.pkl")  # Replace with actual French model path
+    french_model = joblib.load("french_model.pkl")  
 =======
     french_model = joblib.load("french_model.pkl")  
 >>>>>>> b928967cd3660aaab2e5c5899e6f79ab6bfd27f5
@@ -113,7 +113,7 @@ except Exception as e:
 
 try:
 <<<<<<< HEAD
-    with open("tokenizer_french.pkl", "rb") as f:  # Replace with actual French tokenizer path
+    with open("tokenizer_french.pkl", "rb") as f:  #
 =======
     with open("tokenizer_french.pkl", "rb") as f: 
 >>>>>>> b928967cd3660aaab2e5c5899e6f79ab6bfd27f5
@@ -125,7 +125,7 @@ except Exception as e:
 # Load the English model and tokenizer
 try:
 <<<<<<< HEAD
-    english_model = joblib.load("english_model_collab.pkl")  # Replace with actual English model path
+    english_model = joblib.load("english_model_collab.pkl")  
 =======
     english_model = joblib.load("english_model_collab.pkl")  
 >>>>>>> b928967cd3660aaab2e5c5899e6f79ab6bfd27f5
@@ -135,7 +135,7 @@ except Exception as e:
 
 try:
 <<<<<<< HEAD
-    with open("tokenizer_english_collab.pkl", "rb") as f:  # Replace with actual English tokenizer path
+    with open("tokenizer_english_collab.pkl", "rb") as f: 
 =======
     with open("tokenizer_english_collab.pkl", "rb") as f:  
 >>>>>>> b928967cd3660aaab2e5c5899e6f79ab6bfd27f5
@@ -209,8 +209,8 @@ if st.button("Analyze Text"):
                 if is_binary:
                     # Binary classification (French or English)
                     st.write("Predicted Categories and Probabilities:")
-                    hate_speech_prob = predictions[0][0] * 100  # Assuming first value is hate speech
-                    non_hate_speech_prob = (1 - predictions[0][0]) * 100  # Complementary probability
+                    hate_speech_prob = predictions[0][0] * 100  
+                    non_hate_speech_prob = (1 - predictions[0][0]) * 100 
                     st.write(f"{binary_labels[0]}: {hate_speech_prob:.2f}%")
                     st.write(f"{binary_labels[1]}: {non_hate_speech_prob:.2f}%")
 
