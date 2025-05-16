@@ -12,13 +12,13 @@ This project is a machine learning-based application for classifying hate and no
 
 Here’s a preview of the current Streamlit interface where users can interact with the model and see the results:
 
-![Streamlit Interface](images/model_architecture.png.jpg)
+![Streamlit Interface](images/streamlit_interface.png.jpg)
 
 ## Model Architecture
 
 Below is the architecture of the sequential model used for hate/non-hate classification:
 
-![Model Architecture](images/streamlit_interface.png.jpg)
+![Model Architecture](images/model_architecture.png.jpg)
 
 ## Installation
 
