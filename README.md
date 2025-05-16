@@ -16,10 +16,10 @@ Here’s a preview of the current Streamlit interface where users can interact w
 
 ## Model Architecture
 
-Below is the architecture of the sequential model used for hate/non-hate classification:
+Below is the architecture of the sequential model used for hate/non-hate classification and multi-parameter classification:
 
-![Model Architecture](images/model_architecture.png.jpg)
-
+![Model Architecture#1](images/model_architecture.png.jpg)
+![Model Architecture#2](images/model_architecture2.png.jpg)
 ## Installation
 
 To run the project locally, clone the repository and install the required dependencies.
