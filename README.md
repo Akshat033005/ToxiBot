@@ -18,7 +18,7 @@ Here’s a preview of the current Streamlit interface where users can interact w
 
 Below is the architecture of the sequential model used for hate/non-hate classification:
 
-![Model Architecture](images/model_architecture.jpg)
+![Model Architecture](images/streamlit_interface.png.jpg)
 
 ## Installation
 
