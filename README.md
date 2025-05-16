@@ -12,7 +12,7 @@ This project is a machine learning-based application for classifying hate and no
 
 Here’s a preview of the current Streamlit interface where users can interact with the model and see the results:
 
-![Streamlit Interface](https://github.com/Akshat033005/ToxiBot/images/streamlit_interface.png)
+![Streamlit Interface]([https://github.com/Akshat033005/ToxiBot/images/streamlit_interface.png](https://github.com/Akshat033005/ToxiBot/blob/master/images/model_architecture.png.jpg))
 
 ## Model Architecture
 
