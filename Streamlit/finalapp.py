@@ -239,7 +239,7 @@ def load_hindi_model():
 
 @st.cache_resource
 def load_english_model():
-    return load_model_and_tokenizer("english_model_collab.pkl", "tokenizer_english_collab.pkl")
+    return load_model_and_tokenizer("english_model.pkl", "tokenizer_english.pkl")
 
 @st.cache_resource
 def load_french_model():
