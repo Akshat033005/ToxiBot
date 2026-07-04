@@ -26,5 +26,4 @@ To run the project locally, clone the repository and install the required depend
 
 ```bash
 git clone https://github.com/YourUsername/your-repository-name.git
-cd your-repository-name
-pip install -r requirements.txt
+
