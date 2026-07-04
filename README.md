@@ -22,7 +22,7 @@ Below is the architecture of the sequential model used for hate/non-hate classif
 ![Model Architecture#2](images/model_architecture2.png.jpg)
 ## Installation
 
-To run the project locally, clone the repository and install the required dependencies.
+To run the project locally, clone the repository .
 
 ```bash
 git clone https://github.com/YourUsername/your-repository-name.git
